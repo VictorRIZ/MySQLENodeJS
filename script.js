@@ -63,5 +63,4 @@ const pool = mysql.createPool({
   queueLimit: 0,
 });
 
-
 app.listen(port, () => console.log(`Executando. Porta ${port}`));
